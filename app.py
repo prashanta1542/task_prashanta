@@ -5,12 +5,6 @@ from datetime import datetime
 app = Flask(__name__)
 CORS(app)
 
-# Connection details for your PostgreSQL database
-DB_HOST = "your_database_host"
-DB_PORT = "your_database_port"
-DB_NAME = "your_database_name"
-DB_USER = "your_database_user"
-DB_PASSWORD = "your_database_password"
 
 # Establish connection to the database
 def connect_to_database():
